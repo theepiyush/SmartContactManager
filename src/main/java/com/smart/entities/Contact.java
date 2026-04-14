@@ -36,8 +36,8 @@ public class Contact {
 	private String email;
 	
 	@NotBlank(message = "Phone Number must be given")
-	@Column(nullable = false, length = 10)
-	private String phone;
+	@Column(nullable = false)
+     private String phone;
 	
 	private String image;
 	
